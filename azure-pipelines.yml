@@ -1,0 +1,13 @@
+resources:
+  repositories:
+  - repository: self
+    clean: true
+  - repository: addons-pipelines
+    type: git
+    name: soneta/addons-pipelines
+
+stages:
+- template: templates/stages.yml@addons-pipelines
+  parameters:
+    solution: 'PlanAmortyzacjiOA.sln'
+    publishNuget: none
