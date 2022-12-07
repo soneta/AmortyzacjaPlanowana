@@ -1,3 +1,3 @@
 # Opis dodatku
 
-Jest to dodatek, który udostêpnia czynnoœæ s³u¿¹c¹ do zapisu planu amortyzacji w postacji opisów analitycznych na dokumencie PK.
+Jest to dodatek, ktÃ³ry udostÄ™pnia czynnoÅ›Ä‡ sÅ‚uÅ¼Ä…cÄ… do zapisu planu amortyzacji w postacji opisÃ³w analitycznych na dokumencie PK.
