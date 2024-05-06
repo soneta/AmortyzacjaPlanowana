@@ -258,8 +258,8 @@ namespace PlanAmortyzacjiOA
                             elem.Kwota = item.WartoscBilansowa;
                             elem.KwotaDodatkowa = item.WartoscPodatkowa;
                             elem.Opis = item.P1 == null && item.P2 == null
-                                ? Ewidencja.Opis
-                                : $"{item.P1}; {item.P2}";
+                                ? Ewidencja.Opis + srodek.ID.ToString()
+                                : $"{item.P1}; {item.P2}; {srodek.ID}";
                             elem.Data = item.Okres;
                             elem.CentrumKosztow = item.P1 as CentrumKosztow ?? srodek[item.Okres].CentrumKosztow;
                         }
